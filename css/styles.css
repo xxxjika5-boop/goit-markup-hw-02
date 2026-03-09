@@ -1,0 +1,74 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+.contacts nav ul {
+    list-style: none;
+    padding: 12px;
+    margin: 0;
+}
+.contacts nav a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contacts address a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+.contacts .website-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: blue;
+    text-decoration: none;
+}
+.intro {
+    background-color: black;
+}
+.intro-title {
+    color: white;
+    font-size: 36px;
+    margin-top:0;
+    text-align: center;
+}
+.intro-button {
+    color:white;
+    background-color: blue;
+.button .website-name {
+    font-size: 32px;
+    font-weight: 700;
+    color: blue;
+}
+.bottom {
+    background-color: black;
+}
+.bottom .website-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: blue;
+}
+.logo-button {
+    font-size: 20px;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+        
+}
+.bottom-paragraf {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+main ul {
+    list-style: none;
+        padding: 10;
+        margin: 0;
+}
