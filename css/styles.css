@@ -1,5 +1,10 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    line-height: 1.5;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
 }
 .contacts nav ul {
     list-style: none;
@@ -7,9 +12,18 @@ body {
     margin: 0;
 }
 .contacts nav a {
-    color: black;
-    font-size: 20px;
+    color: #2E2F42;
+    font-size: 16px;
     text-decoration: none;
+}
+.contacts-personel ul li a:hover,
+.contacts-personel ul li a:focus {
+    color: #404BBF;
+    font-size: 16px;
+}
+.contacts nav a:hover,
+.contacts nav a:focus {
+    color: #404BBF;
 }
 
 .contacts address a {
@@ -17,16 +31,19 @@ body {
     font-size: 18px;
     text-decoration: none;
 }
+.contacts nav a:hover,
+.contacts nav a:focus {
+    color: #404BBF;
+}
+
 .logo {
-    font-size: 24px;
-    font-weight: 700;
-    color: black;
+    font-size: 18px;
+    color: #4D5AE5;
     text-decoration: none;
 }
 .contacts .website-name {
     font-size: 24px;
-    font-weight: 700;
-    color: blue;
+    color: #4D5AE5;
     text-decoration: none;
 }
 .intro {
@@ -34,33 +51,30 @@ body {
 }
 .intro-title {
     color: white;
-    font-size: 36px;
+    font-size: 56px;
+    font-weight: 700;
     margin-top:0;
     text-align: center;
 }
-.team-block {
-    text-decoration: none;
-}
+
 .intro-button {
     color:white;
-    background-color: blue;
+    background-color: #4D5AE5;
+    cursor: pointer;
 }
-.button .website-name {
-    font-size: 32px;
-    font-weight: 700;
-    color: blue;
+.intro-button:hover,
+.intro-button:focus {
+    background-color: #404BBF;
 }
 .bottom {
     background-color: black;
 }
 .bottom .website-name {
     font-size: 20px;
-    font-weight: 700;
     color: blue;
 }
 .logo-button {
     font-size: 20px;
-    font-weight: 700;
     color: white;
     text-decoration: none;
         
