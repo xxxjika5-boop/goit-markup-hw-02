@@ -1,0 +1,130 @@
+/* ====== BASE ====== */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    line-height: 1.5;
+    margin: 0;
+}
+/* ====== LOGO ====== */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #2E2F42;
+    text-decoration: none;
+}
+.logo .website-name {
+    color: #4D5AE5;
+    font-size: inherit;
+}
+/* ====== NAVIGATION ====== */
+.contacts nav ul {
+    list-style: none;
+    padding: 18px;
+    margin: 0;
+}
+.contacts nav a {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.contacts nav a:hover,
+.contacts nav a:focus {
+    color: #404BBF;
+}
+/* ====== CONTACTS ====== */
+.contacts-personel ul {
+    list-style: none;
+    padding: 0px 0 0 20px;
+    margin: 0;
+}
+.contacts-personel ul li a {
+    color: #434455;
+    font-size: 16px;
+    text-decoration: none;
+}
+.contacts-personel ul li a:hover,
+.contacts-personel ul li a:focus {
+    color: #404BBF;
+}
+.contacts-personel {
+    margin-bottom: 40px;
+}
+/* ====== HERO ====== */
+.intro {
+    background-color:#2E2F42;
+}
+.intro-title {
+    color: #ffffff;
+    font-size: 56px;
+    margin-top: 0px;
+    text-align: center;
+}
+.intro-button {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+.intro-button:hover,
+.intro-button:focus{
+    background-color: #404BBF;
+}
+/* ====== TEAM ====== */
+.team {
+    background-color: #f4f4fd;
+}
+.our-team {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.team-list {
+    list-style: none;
+    padding: 0;
+}
+.team-card {
+    background-color: #ffffff;
+    padding: 0px;
+    margin-top: 0.875rem;
+    margin-left: 1.875rem;
+    text-align: center;
+    border-radius: 4px;
+}
+.team-card img {
+    display: block;
+    margin-bottom: 16px;
+}
+.name {
+    text-align: center;
+}
+.specialty {
+    text-align: center;
+}
+.team-portfolio {
+    text-align: center;
+    font-size: 36px;
+}
+main ul {
+    list-style: none;
+    padding: 10px 0 0 40px;
+    margin: 0;
+}
+/* ====== FOOTER ====== */
+.bottom {
+    background-color: #2E2F42;
+}
+.bottom .website-name {
+    font-size: 20px;
+    color: #4D5AE5;
+}
+.logo-button {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.bottom-paragraph {
+    color: #ffffff;
+    font-size: 0.875rem;
+    margin-top: 0.625rem;
+}
