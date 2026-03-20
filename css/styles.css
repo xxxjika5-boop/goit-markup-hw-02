@@ -41,7 +41,7 @@ body {
     color: #404BBF;
 }
 /* ====== CONTACTS ====== */
-.contacts-list {
+ul {
     list-style: none;
 }
 .contact-link {
@@ -55,15 +55,13 @@ body {
 .contact-link:focus {
     color: #404BBF;
 }
-address,
-address a {
+.contacts-personnel {
     font-style: normal;
 }
 /* ====== HERO ====== */
 .intro {
     background-color: #2E2F42;
 }
-
 .intro-title {
     color: #ffffff;
     font-size: 56px;
@@ -92,9 +90,6 @@ address a {
     letter-spacing: 0.02em;
     line-height: 1.2;
 }
-.features-list {
-    list-style: none;
-}
 .feature-text {
     font-size: 16px;
     color: #434455;
@@ -113,12 +108,6 @@ address a {
     font-size: 36px;
     letter-spacing: 0.02em;
     line-height: 1.11;
-}
-.team-list {
-    list-style: none;
-}
-.nav-list {
-    list-style: none;
 }
 .name {
     text-align: center;
@@ -141,9 +130,6 @@ address a {
     font-size: 36px;
     letter-spacing: 0.02em;
     line-height: 1.11;
-}
-.portfolio-list {
-    list-style: none;
 }
 .portfolio-title {
     font-size: 20px;
