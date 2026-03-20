@@ -83,6 +83,10 @@ ul {
     background-color: #404BBF;
 }
 /* ====== FEATURES ====== */
+.our-team,
+.team-portfolio {
+    color: #2E2F42;
+}
 .feature-title {
     font-size: 20px;
     font-weight: 500;
@@ -145,7 +149,7 @@ ul {
     line-height: 1.5;
 }
 /* ====== FOOTER ====== */
-footer {
+.footer {
     background-color: #2E2F42;
 }
 .footer-logo-accent {
