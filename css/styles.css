@@ -12,44 +12,54 @@ body {
     font-weight: 700;
     color: #2E2F42;
     text-decoration: none;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
 }
 .logo .website-name {
     color: #4D5AE5;
     font-size: inherit;
 }
-/* ====== NAVIGATION ====== */
-.contacts nav ul {
-    list-style: none;
-    padding: 18px;
-    margin: 0;
-}
-.contacts nav a {
+/* ====== NAV LINKS ====== */
+.nav-link {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
-.contacts nav a:hover,
-.contacts nav a:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404BBF;
 }
 /* ====== CONTACTS ====== */
-.contacts-personel ul {
+.contacts-personnel ul {
     list-style: none;
-    padding: 0px 0 0 20px;
+    padding: 0;
     margin: 0;
 }
-.contacts-personel ul li a {
+.contacts-personnel ul li a:hover,
+.contacts-personnel ul li a:focus {
+    color: #404BBF;
+}
+.contacts-personnel {
+    margin-bottom: 40px;
+}
+address,
+address a {
+    font-style: normal;
+}
+/* ====== CONTACT LINKS ====== */
+.contact-link {
     color: #434455;
     font-size: 16px;
     text-decoration: none;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
-.contacts-personel ul li a:hover,
-.contacts-personel ul li a:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #404BBF;
-}
-.contacts-personel {
-    margin-bottom: 40px;
 }
 /* ====== HERO ====== */
 .intro {
@@ -60,11 +70,15 @@ body {
     font-size: 56px;
     margin-top: 0px;
     text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
 }
 .intro-button {
     color: #ffffff;
     background-color: #4D5AE5;
     cursor: pointer;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
 }
 .intro-button:hover,
 .intro-button:focus{
@@ -78,6 +92,8 @@ body {
     text-align: center;
     font-size: 36px;
     margin-bottom: 30px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
 }
 .team-list {
     list-style: none;
@@ -104,14 +120,16 @@ body {
 .team-portfolio {
     text-align: center;
     font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
 }
-main ul {
+ul {
     list-style: none;
-    padding: 10px 0 0 40px;
+    padding: 0;
     margin: 0;
 }
 /* ====== FOOTER ====== */
-.bottom {
+footer {
     background-color: #2E2F42;
 }
 .bottom .website-name {
@@ -120,11 +138,11 @@ main ul {
 }
 .logo-button {
     font-size: 20px;
-    color: #ffffff;
+    color: #f4f4fd;
     text-decoration: none;
 }
 .bottom-paragraph {
-    color: #ffffff;
+    color: #f4f4fd;
     font-size: 0.875rem;
     margin-top: 0.625rem;
 }
