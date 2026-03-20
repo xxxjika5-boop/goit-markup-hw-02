@@ -105,6 +105,9 @@ address a {
 .team {
     background-color: #f4f4fd;
 }
+.team-card {
+    background-color: #ffffff;
+}
 .our-team {
     text-align: center;
     font-size: 36px;
@@ -158,6 +161,9 @@ address a {
 /* ====== FOOTER ====== */
 footer {
     background-color: #2E2F42;
+}
+.footer-logo-accent {
+    color: #4D5AE5;
 }
 .bottom-paragraph {
     color: #f4f4fd;
