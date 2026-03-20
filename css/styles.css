@@ -4,6 +4,7 @@ body {
     color: #434455;
     line-height: 1.5;
     margin: 0;
+    background-color: #fff;
 }
 /* ====== LOGO ====== */
 .logo {
@@ -38,10 +39,6 @@ body {
     padding: 0;
     margin: 0;
 }
-.contacts-personnel ul li a:hover,
-.contacts-personnel ul li a:focus {
-    color: #404BBF;
-}
 .contacts-personnel {
     margin-bottom: 40px;
 }
@@ -75,6 +72,8 @@ address a {
 }
 .intro-button {
     color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
     background-color: #4D5AE5;
     cursor: pointer;
     letter-spacing: 0.04em;
@@ -107,15 +106,24 @@ address a {
     text-align: center;
     border-radius: 4px;
 }
-.team-card img {
+.team-photo {
     display: block;
     margin-bottom: 16px;
 }
 .name {
     text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
 }
 .specialty {
     text-align: center;
+    font-size: 16px;
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 .team-portfolio {
     text-align: center;
@@ -127,6 +135,19 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+.portfolio-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.portfolio-category {
+    font-size: 16px;
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 /* ====== FOOTER ====== */
 footer {
@@ -140,9 +161,16 @@ footer {
     font-size: 20px;
     color: #f4f4fd;
     text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
 }
 .bottom-paragraph {
     color: #f4f4fd;
     font-size: 0.875rem;
     margin-top: 0.625rem;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
